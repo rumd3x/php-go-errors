@@ -1,0 +1,23 @@
+{
+    "name": "rumd3x/php-go-errors",
+    "description": "PHP implementation of golang errors package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rumd3x",
+            "email": "edmurcardoso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rumd3x\\Errors\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
